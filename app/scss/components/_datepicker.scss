@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the datepicker component.
+// -----------------------------------------------------------------------------
+
+.datepicker-item {
+	margin-right: 20px;
+}
+.datepicker--nav {
+	border: none;
+}
+.datepicker--day-name {
+	text-transform: inherit;
+	font-size: 1.4rem;
+	color: #333;
+	font-weight: bold;
+}
+.datepicker--cell {
+	margin-bottom: 2px;
+}
+.datepicker--cell.-current- {
+	border-radius: 5px;
+	background-color: $brand-color !important;
+	color: $light-color;
+}
+.datepicker--cell-day.-weekend- {
+	&:not(.-other-month-) {
+		background-color: #f5f5f5;
+	}
+}
+.datepicker--nav-title {
+	font-weight: bold;
+	i {
+		color: #4a4a4a;
+	}
+}
+
+
+.datepicker.-bottom-left-.-from-bottom-.active {
+	
+}

@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@import "../abstracts/_mixins";
+
+@include font-face("proximanova", "../fonts/ProximaNova-Regular/ProximaNova-Regular");
+@include font-face("proximanova", "../fonts/ProximaNova-Semibold/ProximaNova-Semibold",600);
+@include font-face("proximanova", "../fonts/ProximaNova-Bold/ProximaNova-Bold",700);
+@include font-face("myriadpro", "../fonts/MyriadPro-Regular/MyriadPro-Regular");
+@include font-face("helvetica", "../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light");
